@@ -4,6 +4,7 @@
 /**
   * main - prints eactly the words in the below bracket
   * Return: an int 1 if successful else 0
+  */
 
 int main(void)
 {
