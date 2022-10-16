@@ -18,7 +18,6 @@ int main(void)
 			{
 				if (z > y && y > x)
 				{
-
 					putchar(x);
 					putchar(y);
 					putchar(z);
