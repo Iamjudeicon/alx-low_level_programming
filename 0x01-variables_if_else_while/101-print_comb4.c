@@ -5,26 +5,25 @@
   * of three digits
   * Return: Success (0)
   */
-
 int main(void)
 {
-	int x, y, z;
+	int a, b, c;
 
-	for (x = 48; x < 58; x++)
+	for (a = 48; a < 58; a++)
 	{
-		for (y = 49; y < 58; y++)
+		for (b = 49; b < 58; b++)
 		{
-			for (z = 50; z < 50; z++)
+			for (c = 50; c < 58; c++)
 			{
-				if (z > y && y > x)
+				if (c > b && b > a)
 				{
-					putchar(x);
-					putchar(y);
-					putchar(z);
-					if (x != 55 || y != 56)
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a != 55 || b != 56)
 					{
 						putchar(',');
-						putchar(' ');
+						putchar(',');
 					}
 				}
 			}
@@ -33,3 +32,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
