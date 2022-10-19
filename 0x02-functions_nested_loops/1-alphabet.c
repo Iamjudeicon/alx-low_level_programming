@@ -1,15 +1,15 @@
-#include <stdio.h>
+#include <main.h>
 /**
-  * main - (entry point) prints alphabet in lower case
+  * print_alphabet - (entry point) prints alphabet in lower case
   * Return: Success (0)
   */
 
-int main(void)
+void print_alphabet(void)
 {
 	char ch;
 
 	ch = 'a';
-
+i
 	while (ch <= 'z')
 	{
 		_putchar(ch);
