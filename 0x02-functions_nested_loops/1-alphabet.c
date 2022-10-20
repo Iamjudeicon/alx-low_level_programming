@@ -5,7 +5,7 @@
   */
 
 void print_alphabet(void)
-{
+ {
 	char ch;
 
 	ch = 'a';
@@ -18,4 +18,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 	
-}
+ }
